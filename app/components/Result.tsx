@@ -41,7 +41,7 @@ export const ResultComponent = ({ result, setResult }: props) => {
         <Group grow justify="space-between" align="center" gap="lg">
           <Stack gap="0" align="center" className="text-center">
             <Text size="xl" fw="bold" c="indigo.6">
-              {result.allocation.protein}
+              {result.allocation.protein}g
             </Text>
             <Badge fullWidth bg="indigo.6">
               Protein
@@ -49,7 +49,7 @@ export const ResultComponent = ({ result, setResult }: props) => {
           </Stack>
           <Stack gap="0" align="center">
             <Text size="xl" fw="bold" c="grape.6">
-              {result.allocation.carb}
+              {result.allocation.carb}g
             </Text>
             <Badge fullWidth bg="grape.6">
               Carbs
@@ -57,7 +57,7 @@ export const ResultComponent = ({ result, setResult }: props) => {
           </Stack>
           <Stack gap="0" align="center">
             <Text size="xl" fw="bold" c="teal.6">
-              {result.allocation.fat}
+              {result.allocation.fat}g
             </Text>
             <Badge fullWidth bg="teal.6">
               Fat
